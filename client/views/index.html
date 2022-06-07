@@ -50,10 +50,13 @@
           </ul>
       </aside>
       <div class="col-10 border border-secondary p-3  d-inline justify-content-start">
-        <div>
-            <button id="porNombre"> ordenar por nombre</button>
+        <div class="d-flex justify-content-evenly" >
+            <button id="porNombre" onclick="porNombre()" class="btn btn-secondary"> ordenar por nombre</button>
+            <button id="porPrecioMenorMayor" onclick="porPrecioMenorMayor()" class="btn btn-secondary"> ordenar por precio de Menor a Mayor</button>
+            <button id="porPrecioMayorMenor" onclick="porPrecioMayorMenor()" class="btn btn-secondary"> ordenar por precio de Mayor a Menor</button>          
+            <button id="porStock" onclick="porStock()" class="btn btn-secondary"> ordenar por stock</button>
         </div>
-        <div id="producto" >
+        <div class="p-4" id="producto" >
             
         </div>
       </div>
