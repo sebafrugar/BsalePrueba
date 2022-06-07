@@ -1,0 +1,9 @@
+a{
+    cursor: default;
+}
+
+a.active{
+    background: rgb(218, 213, 213);
+    color: white;
+    width: 100%;
+}
