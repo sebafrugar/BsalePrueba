@@ -29,3 +29,16 @@
 1. se crean archivos HTML para distintas vistas con los articulos filtrados por categoria.</br>
 2. Se crean archivos JS vinculados a las vistas HTML para generar filtros de busquedas y mostrar los articulos mediante map y filtros (finciones nativas de JS).</br>
 3. se crea un archivo CSS general con funcion de colores para la vista activa de articulos.</br>
+
+
+## Principales Funcionalidades 
+
+1. muestra de todos los productos disponibles en la tienda.</br>
+2. buscador el cual filtra productos segun busqueda.</br>
+3. filtros de ordenamiento por abecedario , por valor (de menor a mayor y de mayor a menor) y por stock.</br>
+4. links los cuales muestran solo una categoria de productos.</br>
+
+
+## Mas proyectos y trabajos en
+
+<h4> https://github.com/sebafrugar </h4>
