@@ -14,3 +14,18 @@
 <p> pasos a seguir :</p>
 1. Primero utilizar el comando `git clone` y pogar el siguiente link https://github.com/sebafrugar/BsalePrueba.git </br>
 2. Luego ingresar a la carpeta donde se clono el proyecto y utilizar el comando `npm i` para descargar las dependencias del proyecto
+
+
+## Back End
+
+1. se crea un keep-alive con un refresco de 4.9 segundos para no perder la conexion con el servidor en el cual se crea la conexion a la base de datos proporcionada y se realiza un setTimeout de una funcion get_next el cual obtiene todos los datos de la base de datos. </br>
+2. se crea controlador para obtener todos los productos de la base de datos. </br>
+3. se crea una routa para poder obtener una peticion get y traer datos desde la BD. </br>
+4. el archivo **server.js** tiene la conexion con  express , cors y la coneccion de la app con las rutas y el puerto determinado. </br>
+
+
+## Front End
+
+1. se crean archivos HTML para distintas vistas con los articulos filtrados por categoria.</br>
+2. Se crean archivos JS vinculados a las vistas HTML para generar filtros de busquedas y mostrar los articulos mediante map y filtros (finciones nativas de JS).</br>
+3. se crea un archivo CSS general con funcion de colores para la vista activa de articulos.</br>
