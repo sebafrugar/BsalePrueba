@@ -126,7 +126,8 @@ const filtrar = async () => {
             resultado.push(producto)
         }
     })
-    document.getElementById("busqueda").innerHTML = resultado.map(producto => `
+    document.getElementById("busqueda").innerHTML = `<h3 class="text-center"> Articulos Filtrados </h3>` 
+            + resultado.map(producto => `
             <div class="card d-inline-block m-2" style="width: 17rem ;">
                 <div class="card-header rounded text-center d-block">
                     <img src="${producto.url_image}" alt="imagen producto" srcset="" style="width: 100px; height: 150px ;align-middle;">
@@ -136,7 +137,8 @@ const filtrar = async () => {
                     <li class="list-group-item">Valor : $ ${producto.price}</li>
                     <li class="list-group-item">Unidades Restantes :  ${producto.discount}</li>
                 </ul>
-            </div>    
+            </div>
+            </div>     
         `)
 };
 
