@@ -12,5 +12,5 @@
 ## Clonacion de proyecto
 
 <p> pasos a seguir :</p>
-- Primero utilizar el comando `git clone` y pogar el siguiente link https://github.com/sebafrugar/BsalePrueba.git
-- Luego ingresar a la carpeta donde se clono el proyecto y utilizar el comando `npm i` para descargar las dependencias del proyecto
+1. Primero utilizar el comando `git clone` y pogar el siguiente link https://github.com/sebafrugar/BsalePrueba.git
+2. Luego ingresar a la carpeta donde se clono el proyecto y utilizar el comando `npm i` para descargar las dependencias del proyecto
